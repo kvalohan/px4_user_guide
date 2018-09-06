@@ -9938,6 +9938,46 @@ is less than 50% of this value</p>    </td>
  <td style="vertical-align: top;">6 </td>
  <td style="vertical-align: top;"></td>
 </tr>
+<tr>
+ <td style="vertical-align: top;"><strong id="SENS_IMU_TEMP">SENS_IMU_TEMP</strong> (FLOAT)</td>
+ <td style="vertical-align: top;"><p>Target IMU temperature</p>    <p><b>Module:</b> drivers/heater</p>
+</td>
+ <td style="vertical-align: top;">0 > 85.0 </td>
+ <td style="vertical-align: top;">55.0 </td>
+ <td style="vertical-align: top;">C</td>
+</tr>
+<tr>
+ <td style="vertical-align: top;"><strong id="SENS_IMU_TEMP_FF">SENS_IMU_TEMP_FF</strong> (FLOAT)</td>
+ <td style="vertical-align: top;"><p>IMU heater controller feedforward value</p>    <p><b>Module:</b> drivers/heater</p>
+</td>
+ <td style="vertical-align: top;">0 > 1.0 </td>
+ <td style="vertical-align: top;">0.5 </td>
+ <td style="vertical-align: top;">microseconds</td>
+</tr>
+<tr>
+ <td style="vertical-align: top;"><strong id="SENS_IMU_TEMP_I">SENS_IMU_TEMP_I</strong> (FLOAT)</td>
+ <td style="vertical-align: top;"><p>IMU heater controller integrator gain value</p>    <p><b>Module:</b> drivers/heater</p>
+</td>
+ <td style="vertical-align: top;">0 > 1.0 </td>
+ <td style="vertical-align: top;">0.025 </td>
+ <td style="vertical-align: top;">microseconds/C</td>
+</tr>
+<tr>
+ <td style="vertical-align: top;"><strong id="SENS_IMU_TEMP_P">SENS_IMU_TEMP_P</strong> (FLOAT)</td>
+ <td style="vertical-align: top;"><p>IMU heater controller proportional gain value</p>    <p><b>Module:</b> drivers/heater</p>
+</td>
+ <td style="vertical-align: top;">0 > 1.0 </td>
+ <td style="vertical-align: top;">0.25 </td>
+ <td style="vertical-align: top;">microseconds/C</td>
+</tr>
+<tr>
+ <td style="vertical-align: top;"><strong id="SENS_TEMP_ID">SENS_TEMP_ID</strong> (INT32)</td>
+ <td style="vertical-align: top;"><p>Target IMU device ID to regulate temperature</p>    <p><b>Module:</b> drivers/heater</p>
+</td>
+ <td style="vertical-align: top;"></td>
+ <td style="vertical-align: top;">1442826 </td>
+ <td style="vertical-align: top;"></td>
+</tr>
 </tbody></table>
 
 ## Snapdragon UART ESC
